@@ -1,0 +1,90 @@
+.features-section {
+    background: rgb(51,51,64);
+    background: linear-gradient(90deg, rgba(51,51,64,1) 0%, rgba(45,47,55,1) 47%, rgba(12,12,14,1) 100%);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 50px 60px;
+    height: 650px;
+}
+
+/* Text Section of features */
+
+.features-section > .about-section {
+    font-size: 2.7rem;
+    height: 60%;
+    width: 47%;
+}
+
+/* Default Line Height is controlled in common.css. (1.3em) */
+
+#About2 {
+    line-height: 1.7em;
+    font-size: 2.4rem;
+}
+
+/* Boxes below text */
+
+.features-section > .about-section > .features-boxes {
+    font-size: 3rem;
+    height: 30%;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .about-section > .features-boxes > .features-signup {
+    letter-spacing: 0.1px;
+    color: black;
+    display: block;
+    margin-block-start: 0.67rem;
+    margin-block-end: 0.67rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border-radius: 7px;
+    padding: .8rem 0.7rem;
+    background-color: rgb(68, 238, 119);
+}
+
+.features-section > .about-section > .features-boxes > .features-learn-more {
+    font-weight: bolder;
+    display: block;
+    margin-block-start: 0.67rem;
+    margin-block-end: 0.67rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border-radius: 7px;
+    padding: .8rem 0.7rem;
+    background-color: black;
+}
+
+/* Features Section image and text*/
+
+.features-section > .example-section {
+    margin-right: 10px;
+    align-items: right;
+    width: 696px;
+}
+
+.features-section > .example-section > .example-image img{
+    margin-top: 10px;
+    height: 110%;
+    width: 110%;
+    -webkit-box-shadow: -6px -6px 14px 5px rgba(0,0,0,0.41); 
+    box-shadow: -6px -6px 14px 5px rgba(0,0,0,0.41);
+}
+
+.features-section > .example-section > .splash-text {
+    font-weight: bold;
+    letter-spacing: normal;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.splash-color {
+    color: rgb(110, 214, 255)
+}

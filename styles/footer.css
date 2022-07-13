@@ -1,0 +1,35 @@
+.footer-section {
+    height: 177px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Boxes that say Codepen for __ */
+
+.footer-section > .boxes {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 65, 80);
+}
+
+.footer-section > .boxes > .codepenfor {
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px rgb(110, 110, 110) solid;
+    width: 600px;
+    text-align: center;
+    display: block;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border-radius: 2px;
+    padding: .8rem 0.7rem;
+}
+
+.largetxt {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 2rem;
+}
